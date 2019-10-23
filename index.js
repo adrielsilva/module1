@@ -5,7 +5,7 @@ server.use(express.json());
 const projects = [];
 var reqs = 0;
 
-//MIDDLEWARE
+//MIDDLEWARES
 
 function checkProject(req, res, next) {
   const { id } = req.params;
